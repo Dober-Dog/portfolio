@@ -1,15 +1,15 @@
 const links = [
     {
         websiteName: "DoberDog's Meme Generator",
-        webLink: " https://doberdogmemes.netlify.app/",
+        webLink: "https://doberdogmemes.netlify.app/",
         gitLink: "https://github.com/Dober-Dog/meme-generator",
-        img: "public/Screenshot 2024-09-01 214628.png"
+        img: "src/components/Screenshot 2024-09-01 214628.png"
     },
     {
         websiteName: "DoggyFacts",
         webLink: "https://doggyfacts.netlify.app/",
         gitLink: "https://github.com/Dober-Dog/dog-facts",
-        img: "public/Screenshot 2024-09-01 215310.png"
+        img: "src/components/Screenshot 2024-09-01 215310.png"
     }
 ]
 

@@ -7,7 +7,7 @@ export default function Card (props){
                 <a href={props.webLink} target='_blank' rel='noopener noreferrer'>Visit Site</a>
                 <a href={props.gitLink} target='_blank' rel='noopener noreferrer'>View Code</a>
             </div>
-            <img src={`${process.env.PUBLIC_URL}${props.img}`} alt={`${props.websiteName} image`} height="400px"/>
+            <img src={props.img} alt={`${props.websiteName} image`} height="400px"/>
             <hr></hr>
         </div>
     )
