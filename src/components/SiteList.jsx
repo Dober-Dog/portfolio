@@ -1,3 +1,6 @@
+import DoberDogImg from './Screenshot 2024-09-01 214628.png'
+import DoggyFactsImg from './Screenshot 2024-09-01 215310.png'
+
 export default function SiteList(){
 
     return (
@@ -10,7 +13,7 @@ export default function SiteList(){
                         <a href='https://doberdogmemes.netlify.app/' target='_blank' rel='noopener noreferrer'>Visit Site</a>
                         <a href='https://github.com/Dober-Dog/meme-generator' target='_blank' rel='noopener noreferrer'>View Code</a>
                     </div>
-                    <img src='src/components/Screenshot 2024-09-01 214628.png' alt="DoberDog's Meme Generator Image" height="400px"/>
+                    <img src={DoberDogImg} alt="DoberDog's Meme Generator Image" height="400px"/>
                     <hr></hr>
                 </div>
             </div>
@@ -20,7 +23,7 @@ export default function SiteList(){
                     <a href="https://doggyfacts.netlify.app/" target='_blank' rel='noopener noreferrer'>Visit Site</a>
                     <a href="https://github.com/Dober-Dog/dog-facts" target='_blank' rel='noopener noreferrer'>View Code</a>
                 </div>
-                <img src="src/components/Screenshot 2024-09-01 215310.png" alt="DoggyFacts Image" height="400px"/>
+                <img src={DoggyFactsImg} alt="DoggyFacts Image" height="400px"/>
                 <hr></hr>
             </div>
         </div>
